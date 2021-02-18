@@ -1,0 +1,10 @@
+{
+  "name": "codeshare",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules && rm -rf packages/**/node_modules"
+  }
+}
